@@ -1,0 +1,11 @@
+{
+    "name": "text_filter/badword",
+    "description": "Detection and filtering of prohibited words",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TextFilter\\Badword\\": "src/"
+        }
+    },
+    "require": {}
+}
