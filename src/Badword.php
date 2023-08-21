@@ -15,7 +15,7 @@ class Badword
     ];
 
     /**
-     * @param string $dictFile 字典文件路径, 每行一句
+     * @param string $dictFile Dictionary file path, one sentence per line
      */
     public function __construct($config = [])
     {
@@ -67,6 +67,7 @@ class Badword
 
         fclose($handle);
     }
+
     /**
      * Load dictionary data from a file and construct a trie tree
      */
